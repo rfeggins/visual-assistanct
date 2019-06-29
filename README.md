@@ -8,7 +8,7 @@ The request includes a URL identifying the affected resource, a method that defi
 
 Web servers wait for client request messages, process them when they arrive, and reply to the web browser with an HTTP response message. The response contains a status line indicating whether or not the request succeeded (e.g. "HTTP/1.1 200 OK" for success). 
 
-![web site text](/images/web.png)
+![web site text](/images/web-image1.png)
 
 ## Dynamic sites
 A dynamic website is one where some of the response content is generated dynamically only when needed. On a dynamic website HTML pages are normally created by inserting data from a database into placeholders in HTML templates (this is a much more efficient way of storing large amounts of content than using static websites). 
@@ -18,4 +18,4 @@ A dynamic site can return different data for a URL based on information provided
 Most of the code to support a dynamic website must run on the server. Creating this code is known as "server-side programming" (or sometimes "back-end scripting").
 
 The diagram below shows a simple architecture for a dynamic website. As in the previous diagram, browsers send HTTP requests to the server, then the server processes the requests and returns appropriate HTTP responses.
-![web site 2 text](image/dynamicweb.png)
+![web site 2 text](image/web-image2.png)
