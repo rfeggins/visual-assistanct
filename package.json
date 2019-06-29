@@ -1,0 +1,32 @@
+{
+  "name": "virtual-assistant-with-voice",
+  "version": "1.0.0",
+  "description": "Converse with a virtual assistant.",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "ibm-watson": "^4.0.1",
+    "jsonfile": "^4.0.0",
+    "mic": "^2.1.1",
+    "node-ffprobe": "^1.2.2",
+    "play-sound": "^1.1.1",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfeggins/visual-assistanct.git"
+  },
+  "keywords": [
+    "visual"
+  ],
+  "author": "R Feggins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfeggins/visual-assistanct/issues"
+  },
+  "homepage": "https://github.com/rfeggins/visual-assistanct#readme"
+}
