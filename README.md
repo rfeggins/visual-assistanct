@@ -8,7 +8,7 @@ The request includes a URL identifying the affected resource, a method that defi
 
 Web servers wait for client request messages, process them when they arrive, and reply to the web browser with an HTTP response message. The response contains a status line indicating whether or not the request succeeded (e.g. "HTTP/1.1 200 OK" for success). 
 
-![web site text](/images/web-image2.png)
+![web site text](/images/web-image1.png)
 
 ## Dynamic sites
 A dynamic website is one where some of the response content is generated dynamically only when needed. On a dynamic website HTML pages are normally created by inserting data from a database into placeholders in HTML templates (this is a much more efficient way of storing large amounts of content than using static websites). 
